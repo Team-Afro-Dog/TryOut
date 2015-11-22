@@ -1,6 +1,11 @@
 import pygame
 
 SIZE = [250,250]
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GREEN = (0, 255, 0)
+RED = (255, 0, 0)
+BLUE = (0,0,255)
 
 def afro():
     
@@ -17,11 +22,7 @@ def afro():
     font3 = pygame.font.Font(None, 14)
     font4 = pygame.font.Font(None, 20)
 
-    BLACK = (0, 0, 0)
-    WHITE = (255, 255, 255)
-    GREEN = (0, 255, 0)
-    RED = (255, 0, 0)
-    BLUE = (0,0,255)
+    
 
     count = 0
     while not done:
